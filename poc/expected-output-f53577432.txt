@@ -1,0 +1,5 @@
+checkout: f53577432
+control_valid          exit=0   gguf_init_from_file: accepted, 1 tensors
+truncated_ne1_zero     exit=136 
+wellformed_ne1_zero    exit=136 
+wellformed_ne2_zero    exit=136 

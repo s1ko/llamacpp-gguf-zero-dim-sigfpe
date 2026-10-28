@@ -1,0 +1,6 @@
+AddressSanitizer:DEADLYSIGNAL
+==PID==ERROR: AddressSanitizer: FPE on unknown address 0xADDR (pc 0xADDR bp 0xADDR sp 0xADDR T0)
+    #0 0xADDR in gguf_init_from_file_ptr llama.cpp/ggml/src/gguf.cpp:632:34
+    #1 0xADDR in LLVMFuzzerTestOneInput poc/fuzz_gguf.cpp:39:36
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: FPE llama.cpp/ggml/src/gguf.cpp:632:34 in gguf_init_from_file_ptr
